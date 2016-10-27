@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "ja">
+<head>
+	<meta charset = "UTF-8">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+
+    <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+	<script src="js/style.js"></script>
+
+	
+	<title>AYA FUJIWARA</title>
+</head>
+
+<body>
+	<header>　
+		<!--ヘッダーメニュー-->
+ 		<ul id="main-nav">
+ 			<li class="active">HOME</li>
+ 			<li>ABOUT</li>
+ 			<li>WORK</li>
+ 			<li>CONTACT</li>
+ 		</ul>
+	</header>
+	
+	<div id="contents">
+  		<div class="active content"><!--HOMEの中身-->
+			<img src="images/HOME-logo.png" class="home-logo">
+			<h1></h1><!--キャッチコピー-->
+  		</div>
+
+ 		<div class="content2"><!--ABOUTの中身-->
+			<img src="images/ABOUT-face.png" class="face">
+			<p class="about">アイウエオカキクケコさしすせそアイウエオカキクケコさしすせそアイウエオカキクケコさしすせそアイウエオカキクケコさしすせそアイウエオカキクケコさしすせそアイウエオカキクケコさしすせそアイウエオカキクケコさしすせそアイウエオカキクケコさしすせそアイウエオカキクケコさしすせそアイウエオカキクケコさしすせそ</p><!--自己紹介文-->
+			
+			<ul class="field1 skillset"><!--スキルタブ-->
+				<li>Illustrator</li>
+				<li>Photoshop</li>
+				<li>skech</li>
+			</ul>
+			<ul class="field2 skillset"> 	
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Javascript</li>
+			</ul>
+			<ul class="field3 skillset">
+				<li>人の話を聞くこと</li>
+			</ul>
+
+ 		</div>
+
+  		<div class="content3">
+  		 	<p class="work">Please wait for a while...</p>
+  		</div>
+  		<div class="content4">CONTACTの中身</div>
+
+		<form role="form" action="mail.php" method="post">
+		<div class="form-group">
+			<label for="exampleInputName1">Your Name</label>
+			<input type="text" class="form-control" id="exampleInputName1" placeholder="Enter name" name="name" required>
+			<label for="exampleInputEmail1">Email address</label>
+			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" name="email" required>
+			<label for="exampleInputText1">Message</label>
+			<textarea class="form-control" rows="3" name="message" required></textarea>
+			</div>
+			<button type="submit" value="SEND MESSAGE" class="btn btn-default">Submit</button>
+		</form>
+		</div>
+
+
+
+
+</body>
+</html>
