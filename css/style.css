@@ -1,0 +1,105 @@
+
+/*ヘッダーナビ*/
+#main-nav{
+	height: 50px;
+	display: flex;
+	justify-content: center; /*等間隔中央配置*/
+	align-items: center;	/*垂直方向において真ん中配置*/
+}
+
+#main-nav li{
+	margin: 30px 50px;
+	font-weight: bold;
+	font-size: 14x;
+	padding-bottom: 5px;
+}
+
+#main-nav li:hover{
+	cursor: pointer;
+	border-bottom: 2px solid gray; /*！hoverアニメーション変更する*/
+}
+
+#main-nav li.active {
+	border-bottom: 2px solid black;
+}
+
+/*メインコンテンツ*/
+#contents div{
+	display: none;　/*非表示にしておく*/
+}
+
+#contents div.active{ /*選択されている時に表示する*/
+	display: block;
+}
+
+/*HOME*/
+.home-logo{
+	padding-top: 100px;
+	display: block; /*！レスポンシブ用に画像縮小必要*/
+	margin:0 auto;
+}
+
+
+/*ABOUT*/
+.content2{
+	background: linear-gradient(#fff462, #fac559, #f6ae54);
+
+}
+
+.face{
+	padding: 30px;
+	display: block;
+	margin: 0 auto;
+}
+
+.about{
+	padding: 5px;
+	width: 400px;
+	height: 200px;
+	line-height:25px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.field1, .field2, .field3{
+	display: flex;
+	justify-content: center;
+}
+
+.skillset li{
+	background-color: #d4dcd3;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.skillset li:hover{
+	cursor: pointer;
+}
+
+
+/*WORK*/
+.content3{
+	height: 600px;
+	background-color: #79c06e;
+
+}
+
+.work{
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 300px;
+}
+
+/*CONTACT*/
+.content4{
+	background-color: #3F52A2;
+}
+
+
+
+
+
+
